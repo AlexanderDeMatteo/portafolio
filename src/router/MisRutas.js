@@ -20,9 +20,7 @@ export const MisRutas = () => {
                 <Route path="/" element={<Navigate to="/Inicio"/>} />
                 <Route path="/inicio" element={<Inicio/>} />
                 <Route path="/portafolio" element={<Portafolio/>} />
-                <Route path="/servicios" element={<Servicio/>} />
                 <Route path="/Curriculum" element={<Curriculum/>} />
-                <Route path="/contacto" element={<Contacto/>} />
                 <Route path="/proyecto/:id" element={<Proyecto/>} />
                 <Route path="*" element={
                   <div className='page'>
