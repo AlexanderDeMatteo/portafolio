@@ -16,12 +16,12 @@ export const Proyecto = () => {
     <div className='page page-work'>
 
         <div className='mask'>
-        <img src={"/images/"+proyecto.id+".jpg"}/>
+        <img src={"/images/"+proyecto.id+".png"}/>
         </div>
         <h1 className='heading'>{proyecto.nombre}</h1>
         <p>{proyecto.tecnologias}</p>
         <p>{proyecto.descripcion}</p>
-        <a href={"https://"+proyecto.url} target="_blank">Ir al proyecto</a>
+        {proyecto.status === "completado" ? <a href={"https://"+proyecto.url} target="_blank">Ir al proyecto</a>:"Proximamente!!"}
       
     </div>
   )

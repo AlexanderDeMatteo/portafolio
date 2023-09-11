@@ -1,50 +1,39 @@
 export const trabajos = [
     {
-         "id": "redesConscientes",
+         "id": "redes",
          "nombre": "RedesConscientes",
-         "url": "redesconscientes.com",
+         "status":"En Desarrollo",
+         "url": "",
          "tecnologias": "HTML,CSS,JS,React,Flask,Python,MySQL",
          "categorias": "Desarrollo web",
-         "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. "
+         "descripcion": "Plataforma de Psicologos"
     },
     {
-        "id": "facebook",
-        "nombre": "Facebook",
-        "url": "facebook.com",
-        "tecnologias": "HTML,CSS,JS,React,Mongo, Node",
+        "id": "starwars",
+        "nombre": "Star Wars Blog",
+        "status":"completado",
+        "url": "github.com/AlexanderDeMatteo/Starwars-Blog-Reading-List",
+        "tecnologias": "HTML,CSS,JS,React,Flask",
         "categorias": "Desarrollo web",
-        "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. "
+        "descripcion": "Blog de Star Wars donde se realizan distintas llamadas a la api para traer las imagenes y informacion respectiva a cada personaje"
    },
    {
-    "id": "twitter",
-    "nombre": "Twitter",
-    "url": "twitter.com",
-    "tecnologias": "HTML,CSS",
-    "categorias": "Maquetacion web",
-    "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. "
+    "id": "todolist",
+    "nombre": "Lista de Tareas",
+    "status":"completado",
+    "url": "github.com/AlexanderDeMatteo/contact-List",
+    "tecnologias": "HTML,CSS,Js,React",
+    "categorias": "Desarrollo Web",
+    "descripcion": "aplicacion para listar tareas, con llamadas a la api"
 },
 {
-    "id": "linkedin",
-    "nombre": "LinkedIn",
-    "url": "linkedin.com",
-    "tecnologias": "HTML,CSS,JS,PHP,Laravel",
-    "categorias": "Desarrollo web",
-    "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. "
+    "id": "contactlist",
+    "nombre": "Lista de Contactos",
+    "status":"completado",
+    "url": "github.com/AlexanderDeMatteo/todo-list-fetch-actualizado",
+    "tecnologias": "HTML,CSS,JS,React, Flask",
+    "categorias": "Desarrollo Web",
+    "descripcion": "Aplicacion de Lista de Contactos, con llamadas a la api"
 },
-{
-    "id": "udemy",
-    "nombre": "Udemy",
-    "url": "udemy.com",
-    "tecnologias": "Mean Stack",
-    "categorias": "Desarrollo web",
-    "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. "
-},
-{
-    "id": "youtube",
-    "nombre": "Youtube",
-    "url": "youtube.com",
-    "tecnologias": "HTML,CSS,JS,PHP,Symfony",
-    "categorias": "Desarrollo web",
-    "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. "
-},
+
 ]

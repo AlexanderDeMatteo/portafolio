@@ -15,10 +15,13 @@ export const ListadoTrabajos = ({limite}) => {
           return(
           <article key={trabajo.id} className='work-item'>
             <div className='mask'>
-            <img src={"/images/"+trabajo.id+".jpg"}/>
+            <img src={"/images/"+trabajo.id+".png"}/>
             </div>
-            <span>{trabajo.categorias}</span>
-            <h2><Link to={"/proyecto/"+trabajo.id}>{trabajo.nombre}</Link></h2>
+            <div className='category'>
+              <span>{trabajo.categorias}</span>
+              <span className="status">{trabajo.status}</span>
+            </div>
+            <h2>{<Link to={"/proyecto/"+trabajo.id}>{trabajo.nombre}</Link>}</h2>
             <h3>{trabajo.tecnologias}</h3>
           </article>
         )})

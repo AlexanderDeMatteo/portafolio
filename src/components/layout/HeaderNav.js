@@ -21,9 +21,6 @@ export const HeaderNav = () => {
                     <NavLink to="/portafolio">Portafolio</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/servicios">Servicios</NavLink>
-                </li>
-                <li>
                     <NavLink to="/curriculum">Curriculum</NavLink>
                 </li>
                 <li>
